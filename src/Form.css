@@ -1,0 +1,70 @@
+.formLight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  border: 1px solid black;
+  width: 100vh;
+  height: 80vh;
+  background-color: white;
+  color: black;
+}
+
+.formDark {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  border: 1px solid white;
+  width: 100vh;
+  height: 80vh;
+  background-color: black;
+  color: white;
+}
+.submitLight {
+  background-color: green;
+  color: white;
+  font-size: large;
+}
+
+.submitDark {
+  background-color: white;
+  color: white;
+  font-size: large;
+}
+
+.btn-container {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  padding: 10px;
+}
+
+.submit {
+  background-color: darkgreen;
+  color: white;
+  font-size: large;
+  width: 30vh;
+  height: 7vh;
+  border-radius: 15px;
+  box-shadow: 0 0 0 darkgreen;
+  border: 1px solid darkgreen;
+
+}
+
+.submit:hover {
+    background-color: green;
+}
+form input {
+  display: flex;
+  flex-direction: column;
+  width: 50vh;
+  height: 4vh;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 5px;
+}
